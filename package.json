@@ -1,0 +1,35 @@
+{
+  "name": "node-red-contrib-ua-avk-http-request",
+  "version": "0.1.13",
+  "description": "A Node-RED node for performing http(s) requests that use Request library with optimized proxy support.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spawnrider/node-red-contrib-http-request.git"
+  },
+  "keywords": [
+    "node-red",
+    "http",
+    "https",
+    "request",
+    "proxy"
+  ],
+  "author": {
+    "name": "Kononenko Aleksandr",
+    "url": "https://github.com/avkcorporation"
+  },
+  "contributors": [{
+      "name": "Kononenko Aleksandr",
+      "url": "https://github.com/avkcorporation"
+    }],
+  "license": "MIT",
+  "node-red": {
+    "nodes": {
+      "www-request2": "ua-avk-http-request.js"
+    }
+  },
+  "dependencies": {
+    "request": "^2.74.0",
+    "mustache": "^2.2.1"
+  },
+  "homepage": "https://github.com/avkcorporation/node-red-contrib-ua-avk-http-request"
+}
